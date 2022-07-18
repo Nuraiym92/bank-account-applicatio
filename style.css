@@ -1,0 +1,40 @@
+body{
+    background-color: antiquewhite;
+}
+.bank-account{
+    margin:0 auto;
+    width:400px;
+    height:100%;
+    border:2px solid firebrick;
+    border-radius: 6px;
+    padding: 30px;
+    margin-top: 100px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h2{
+    color:brown;
+}
+#deposit,#withdraw,#amount{
+    height:30px;
+    margin-bottom:10px;
+    text-align: center;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+}
+#balance{
+    font-weight: 700;
+}
+#deposit{
+    background-color: rgb(54, 186, 54);
+}
+#withdraw{
+    background-color: rgb(216, 46, 46);
+}
+#alert{
+  
+    font-size:24px;
+    color:red;
+}
